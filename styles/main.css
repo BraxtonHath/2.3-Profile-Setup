@@ -10,6 +10,11 @@ html {
 
 body {
   margin: 0;
+  font-weight: lighter;
+}
+
+p{
+  font-size: 30px
 }
 
 .outer {
@@ -27,18 +32,63 @@ section {
   background-color: #ffffff;
   padding: 2rem 0;
   text-align: center;
+  width: 680px
 }
 
-.radio{
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+.account-holder{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1{
+display: flex;
+text-align: center;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+height: 200px;
+
+}
+
+.box1 div{
+  width: 45%;
+  text-align: left;
+
+}
+
+.box1 label{
+  font-size: 20px
+}
+
+.box1 input{
+  width: 90%;
+  height: 30px;
+
+
 }
 
 .left{
-  text-align: left;
+display: flex;
+text-align: left;
 }
 
-.right{
-  text-align: right;
+.left div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
+
+.left label{
+  margin: 0 20px
+}
+
+
+.button {
+  background: white;
+  width: 50%;
+  border: solid;
+  font-size: 8px;
+  border-radius: 2px;
+  color: black;
+  font-size: 30px;
+  border-radius: 10px
