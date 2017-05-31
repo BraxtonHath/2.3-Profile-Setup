@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <p>Sign up<p>
+
+
+    <form action="http://foo.com" method="POST">
+      <fieldset class="account-holder">
+        <input type="radio" name="user" value="admin">
+        <label for="admin">Admin</label>
+        <input type="radio" id="personal" name="user" value="personal">
+        <label for="personal">Personal</label>
+        <input type="radio" name="user" value="guest">
+        <label for="guest">Guest</label>
+    </fieldset>
+    <br>
+
+    <fieldset class="box">
+        <label for="name">name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">email Address:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="password">password:</label>
+        <input type='password' id="password" name="password">
+        <label for="confirm-password">confirm password:</label>
+        <input type='password' id="confirm-password" name="confirm-password">
+      </fieldset>
+      <br>
+
+      <fieldset>
+        <div class="left">
+        <label for="profile-picture">Profile Picture</label>
+        <input type="file" id="profile-pic">
+        </div>
+      </fieldset>
+
+      <feildset class="right">
+        <input type="submit"/>
+      </feildset>
+
+
+
+  </section>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
